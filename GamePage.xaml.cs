@@ -62,6 +62,7 @@ namespace SlotMachine
 
         private void CancelButton_Click(object sender, RoutedEventArgs e)
         {
+            System.Diagnostics.Debug.WriteLine("Going to new page");
             this.Frame.Navigate(typeof(MainPage));
         }
 
